@@ -1,6 +1,6 @@
 version: '2'
 messages:
-  $i18n: messages.yml
+  $ref: messages.yml
 template:
   name:
     $ref: "#/messages/template.name"
